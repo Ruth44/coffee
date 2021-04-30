@@ -542,7 +542,7 @@ header > .container-fluid {
     padding-right: 50px;
 }
 header.main-header {
-    background: #ffffff;
+    background: #333333;
 }
 header .logo-link img {
     max-width: 100%;
