@@ -734,7 +734,7 @@
 	    margin-bottom: 15px;
 	}
 	.navbar-collapse.in {
-	    background: #ffffff;
+	    background: transparent;
 	}
 	header.main-header.top-menu-position-header .navbar-collapse.in {
 		background: none;

@@ -36,6 +36,153 @@
     width: 20px;
 
 } */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+    #title{
+        background-image: url("../upload/bg2.jpg") !important;
+        background-position: center !important;
+        width: 100% !important;
+        height: 60rem !important;
+        background-repeat: no-repeat !important;
+        background-size: inherit !important;
+        background-size: cover !important;
+        text-align: center !important;
+    }
+    .title{
+        font-weight: 500 !important;
+        color: #fee973 !important;
+        text-align: left !important;
+        font-size: 3rem !important;
+        position: absolute !important;
+        left: 7% !important;
+    }
+    /* .wpb_column{
+       margin-top: 150%;
+    } */
+ .register{
+     top: 40%;
+ }
+}
+@media only screen and (min-width: 768px) {
+    #title{
+            
+            width: 100% !important;
+            height: 65rem !important;
+            background-image: url("../upload/bg6.jpg") !important;
+            background-repeat: no-repeat !important;
+            background-size: inherit !important;
+            background-size: cover !important;
+            text-align: center !important;
+            opacity: 0.9 !important;
+    }
+    .title{
+        font-weight: 500 !important;
+        color: #fee973 !important;
+        text-align: left !important;
+        font-size: 3.5rem !important;
+        position: absolute !important;
+        left: 7% !important;
+    }
+    /* .wpb_column{
+     top: 20rem;
+     margin-top: 35% ;
+     margin-bottom: 20%;
+    } */
+ 
+ .register{
+     top: 50%;
+ }
+
+}
+body{
+    font-family: acumin-pro, sans-serif !important;
+}
+.navbar-brand img{
+    width: 7.5rem !important;
+    height:7.5rem !important;
+    margin-left: 0 !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    margin-left: 2rem !important;
+    font-size: 2rem !important;
+}
+.register{
+        background-color: #fee973 !important;
+        border-color: #fee973 !important;
+        font-weight: 500 !important;
+        text-align: left !important;    
+        font-size: 3rem;
+        position: absolute !important;
+        left: 7% !important;
+        color: #18191A;
+}
+.register:hover{
+    color: #fee973 !important;
+    background-color:#18191A !important ;
+}
+
+/* Setting the stroke to green using rgb values (0, 128, 0) */ 
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(254, 233, 115, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; 
+} 
+#title{
+    padding: 2% 4% !important;
+}
+.nav-link{
+    color: #fee973 !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+.register a{
+    text-align: left !important;
+    padding-left: 2rem !important;
+}
+.title-div{
+    margin-left: 0 !important;
+    margin-top: 6rem !important
+}
+/* @media only screen and (max-width: 600px) {
+ .tp-captionn{
+     font-size: 25px !important;
+ }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .tp-captionn{
+       font-size: 25px !important;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+    .tp-captionn{
+        font-size: 35px !important;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+.tp-captionn{
+    font-size: 45px !important;
+}
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    .tp-captionn{
+        font-size: 55px !important;
+    }
+} */
 html {
     overflow-x: hidden;
 }
@@ -436,7 +583,6 @@ body.transparent-header.enable-left-header .container-bg.with-bg h1 {
     padding-top: 70px;
 }
 body.transparent-header .container-bg.with-bg h1 {
-    padding: 290px 0 70px;
     font-size: 45px;
 }
 body.transparent-header header.mainmenu-position-menu_in_header + .content-block .container-bg.with-bg h1,
@@ -10915,7 +11061,7 @@ background: #a152eb;
 }
 .custom_1490199141901 {
     height: 40rem;
-    padding-top: 100px !important;
+    padding-top: 5% !important;
     padding-right: 50px !important;
     padding-left: 100px !important;
 }
