@@ -47,40 +47,48 @@
 
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nunito%3A400%2C700%26subset%3Dlatin%7CPoppins%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%26subset%3Dlatin%7CPoppins%3A300%2C400%2C600%26subset%3Dlatin&amp;ver=1.0" type="text/css" media="all"/>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400%2C300%2C200%2C500%7CPoppins:300%7COpen+Sans:300" rel="stylesheet" property="stylesheet" type="text/css" media="all" />
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<style>
+    .custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important; 
+} 
+</style>
 </head>
 
 <body class="home page-template-default page page-id-19 wpb-js-composer js-comp-ver-5.2 responsive transparent-header">
-    <header class="main-header sticky-header-elements-headeronly mainmenu-position-menu_in_header">
+    <!-- <header class="main-header sticky-header-elements-headeronly mainmenu-position-menu_in_header">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="header-left">
-                        <a class="logo-link" href="index.html">
+                        <a class="logo-link" href="index">
                             <img style="margin-right: 0; padding-right: 0;" src="upload/logo1.png" alt="AWM" class="light-logo" />
                             <img src="upload/sededagota.png" width="1rem" height="140rem" alt="Sede Dagota" class="light-logo" />
                         </a>
                         <div class="mobile-main-menu-toggle" data-toggle="collapse" data-target=".collapse"><i class="fa fa-bars"></i></div>
                     </div>
                     <div class="header-center">
-                        <div id="navbar" class="navbar navbar-default clearfix mgt-mega-menu menu-right menu-style-border-bottom">
+                        <div style="height: 45px;" id="navbar" class="navbar navbar-default clearfix mgt-mega-menu menu-right menu-style-border-bottom">
                             <div class="navbar-inner">
                                 <div class="navbar-collapse collapse">
                                     <ul id="menu-main-menu-2" class="nav">
                                         <li class="menu-item-home">
-                                            <a href="index.html"><span>Home</span></a>
+                                            <a href="http://www.sededagota.com"><span>Home</span></a>
                                         </li>
                                         <li class="menu-item">
-                                            <a href="about.html"><span>About Us</span></a>
+                                            <a href="http://www.sededagota.com/about"><span>About Us</span></a>
                                                                                            </li>
                                              
-                                        <li class="menu-item current-menu-item current_page_item">
-                                            <a href="products.html"><span>Products</span></a></li>
+                                      
                                            
                                        
                                            
                                         <li class="menu-item">
-                                            <a href="contact.html"><span>Contact Us</span></a>
+                                            <a href="http://www.sededagota.com/contact"><span>Contact Us</span></a>
                                             
                                         </li>
                                     </ul>
@@ -94,9 +102,36 @@
                 </div>
             </div>
         </div>
-    </header>
+    </header> -->
 
+    <nav style="display:block !important;" class="navbar navbar-expand-md navbar-">
+        <a class="navbar-brand" href="#">
+        <img src="upload/logo2.png" alt="AWM" loading="lazy">
+        <img src="upload/sededagota2.png"   alt="Sede Dagota" loading="lazy">
 
+        </a>
+        <button style="position: absolute; right:0; top: 35%;" class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav ml-auto">
+             
+                <li class="nav-item">
+                    <a style=" font-family: acumin-pro, sans-serif !important;color: #393637 !important;" class="nav-link" href="http://www.sededagota.com">Home</a>
+                </li>
+                <li  class="nav-item">
+                    <a style=" font-family: acumin-pro, sans-serif !important;color: #393637 !important;"
+                     class="nav-link" href="www.sededagota.com/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a style=" font-family: acumin-pro, sans-serif !important;color: #393637 !important;"  class="nav-link" href="www.sededagota.com/contact">Contact</a>
+                </li>
+
+               
+          
+            </ul>
+          </div>
+    </nav>
 
     <div class="content-block">
         <div class="container-bg with-bg container-fluid" style="background-color: #fee973; background-image: url(upload/bg8.jpg);" >
@@ -118,7 +153,7 @@
                             <div class="breadcrumbs" typeof="BreadcrumbList" >
                                 <!-- Breadcrumb NavXT 5.7.1 -->
                                 <span property="itemListElement" typeof="ListItem">
-                                    <a property="item" typeof="WebPage" title="Sede Dagota." href="index.html" class="home"><span property="name">Sede Dagota</span></a>
+                                    <a property="item" typeof="WebPage" title="Sede Dagota." href="index" class="home"><span property="name">Sede Dagota</span></a>
                                     <meta property="position" content="1" />
                                 </span>
                                 &gt; <span property="itemListElement" typeof="ListItem"><span property="name">Products</span><meta property="position" content="2" /></span>
@@ -209,7 +244,7 @@
                                                                                             data-style="background-image: url(upload/pack2.png);height: 500px;background-size: cover;"
                                                                                         ></div>
                                                                                         <div class="mgt-promo-block black-text no-darken mgt-promo-block-46263835" data-style="background-color: #ffffff;height: auto;">
-                                                                                            <a class="mgt-promo-block-link" href="service-classic.html">
+                                                                                            <a class="mgt-promo-block-link" >
                                                                                                 <div class="mgt-promo-block-content va-top">
                                                                                                     <div class="mgt-promo-block-content-inside custom_1497275742214">
                                                                                                         <h3>Whole Bean</h3>
@@ -300,7 +335,7 @@
 </div>
     </div>
     
-    <div class="container-fluid footer-wrapper">
+    <div class="container-fluid footer-wrapper" style="background-color:#18191A;">
         <div class="row">
             <div class="footer-sidebar-wrapper footer-sidebar-style-dark"  data-style="">
                 <div class="footer-sidebar sidebar container footer-sidebar-col-1" > 
@@ -311,9 +346,9 @@
                                     <section class="widget widget_pages">
                                         <h3 class="widgettitle" style="color: white;">Quick links</h3>
                                         <ul>
-                                            <li class="page_item"><a href="index.html">Home</a></li>
-                                            <li class="page_item"><a href="about.html">About Us</a></li>
-                                            <li class="page_item"><a href="products.html">Products</a></li>
+                                            <li class="page_item"><a href="index">Home</a></li>
+                                            <li class="page_item"><a href="about">About Us</a></li>
+                                            <li class="page_item"><a href="products">Products</a></li>
                                         </ul><span class="seperator extralight-border"></span>
                                     </section>
                                 </div>
@@ -324,11 +359,11 @@
                     </ul>
                 </div>
             </div>
-            <footer class="footer-style-dark footer-col-1">
+            <footer class="footer-style-dark footer-col-1 mx-auto">
                 <div class="container">
                     <div class="row">
                        
-                        <div class="col-md-12 footer-copyright">Powered by <a target="_blank" rel="noopener noreferrer">Sede Dagota</a></div>
+                        <div style="padding-top: 120%;" class="col-md-12 footer-copyright">Powered by <a target="_blank" rel="noopener noreferrer">Sede Dagota</a></div>
                     </div>
                 </div>
                 <a href="#top"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="scroll-to-top bi bi-chevron-up" viewBox="0 0 16 16">
@@ -499,38 +534,6 @@
 
 
 
-    <div class="search-fullscreen-container"></div>
-    <div class="search-fullscreen-wrapper">
-        <div class="search-fullscreen-form">
-            <div class="search-close-btn">
-                <i class="pe-7s-close"></i>
-            </div>
-            <form method="get" id="searchform_p" class="searchform" action="@">
-                <input type="search" class="field" name="s" value="" id="s_p" placeholder="Type keyword(s) here and hit Enter &hellip;" />
-                <input type="submit" class="submit btn" id="searchsubmit_p" value="Search" />
-            </form>
-        </div>
-    </div>
-    <div class="header-advanced-menu-fullscreen-container"></div>
-    <div class="header-advanced-menu-fullscreen-wrapper">
-
-        <div class="header-advanced-menu-close-btn">
-            <i class="pe-7s-close"></i>
-        </div>
-
-        <div class="header-advanced-menu-fullscreen-menu">
-            <div class="menu-offcanvas-container">
-                <ul id="menu-offcanvas" class="header-advanced-fullscreen-menu">
-                    <li class="menu-item"><a href="index.html">Homepage</a></li>
-                    <li class="menu-item"><a href="about-us.html">About us</a></li>
-                    <li class="menu-item"><a href="our-team.html">Team</a></li>
-                    <li class="menu-item"><a href="blog.html">Blog</a></li>
-                    <li class="menu-item"><a href="portfolio-3.html">Portfolio</a></li>
-                    <li class="menu-item"><a href="contact-us-classic.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
